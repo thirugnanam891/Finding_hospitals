@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T12:54:28 IST" name="Suite" finished-at="2024-03-06T12:56:23 IST" duration-ms="114718">
+    <groups>
+      <group name="regression">
+        <method signature="TC_FindingHospital.T002_DoctorPage()[pri:2, instance:testCases.TC_FindingHospital@2cb4893b]" name="T002_DoctorPage" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T003_Filters()[pri:3, instance:testCases.TC_FindingHospital@2cb4893b]" name="T003_Filters" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T004_DoctorInfo()[pri:4, instance:testCases.TC_FindingHospital@2cb4893b]" name="T004_DoctorInfo" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T001_goToSurgery()[pri:5, instance:testCases.TC_FindingHospital@2cb4893b]" name="T001_goToSurgery" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T002_validate()[pri:6, instance:testCases.TC_FindingHospital@2cb4893b]" name="T002_validate" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T004_SurgeryList()[pri:8, instance:testCases.TC_FindingHospital@2cb4893b]" name="T004_SurgeryList" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T001_goToCorporates()[pri:10, instance:testCases.TC_FindingHospital@2cb4893b]" name="T001_goToCorporates" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T002_validateCorporate()[pri:11, instance:testCases.TC_FindingHospital@2cb4893b]" name="T002_validateCorporate" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T003_sendDetails()[pri:12, instance:testCases.TC_FindingHospital@2cb4893b]" name="T003_sendDetails" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T004_VerifyMsg()[pri:13, instance:testCases.TC_FindingHospital@2cb4893b]" name="T004_VerifyMsg" class="testCases.TC_FindingHospital"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_FindingHospital.T001_homepage()[pri:1, instance:testCases.TC_FindingHospital@2cb4893b]" name="T001_homepage" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T002_DoctorPage()[pri:2, instance:testCases.TC_FindingHospital@2cb4893b]" name="T002_DoctorPage" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T002_validate()[pri:6, instance:testCases.TC_FindingHospital@2cb4893b]" name="T002_validate" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T003_ScrollDown()[pri:7, instance:testCases.TC_FindingHospital@2cb4893b]" name="T003_ScrollDown" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T005_ScrollUp()[pri:9, instance:testCases.TC_FindingHospital@2cb4893b]" name="T005_ScrollUp" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T002_validateCorporate()[pri:11, instance:testCases.TC_FindingHospital@2cb4893b]" name="T002_validateCorporate" class="testCases.TC_FindingHospital"/>
+        <method signature="TC_FindingHospital.T005_MsgScreenshot()[pri:14, instance:testCases.TC_FindingHospital@2cb4893b]" name="T005_MsgScreenshot" class="testCases.TC_FindingHospital"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-06T12:54:28 IST" name="Test" finished-at="2024-03-06T12:56:23 IST" duration-ms="114718">
+      <class name="testCases.TC_FindingHospital">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:54:29 IST" name="setup" finished-at="2024-03-06T12:55:04 IST" duration-ms="34589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="T001_homepage()[pri:1, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:04 IST" name="T001_homepage" finished-at="2024-03-06T12:55:04 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_homepage -->
+        <test-method signature="T002_DoctorPage()[pri:2, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:04 IST" name="T002_DoctorPage" finished-at="2024-03-06T12:55:12 IST" duration-ms="7933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T002_DoctorPage -->
+        <test-method signature="T003_Filters()[pri:3, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:12 IST" name="T003_Filters" finished-at="2024-03-06T12:55:42 IST" duration-ms="29471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T003_Filters -->
+        <test-method signature="T004_DoctorInfo()[pri:4, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:42 IST" name="T004_DoctorInfo" finished-at="2024-03-06T12:55:47 IST" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T004_DoctorInfo -->
+        <test-method signature="T001_goToSurgery()[pri:5, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:47 IST" name="T001_goToSurgery" finished-at="2024-03-06T12:55:49 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_goToSurgery -->
+        <test-method signature="T002_validate()[pri:6, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:49 IST" name="T002_validate" finished-at="2024-03-06T12:55:49 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T002_validate -->
+        <test-method signature="T003_ScrollDown()[pri:7, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:49 IST" name="T003_ScrollDown" finished-at="2024-03-06T12:55:49 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T003_ScrollDown -->
+        <test-method signature="T004_SurgeryList()[pri:8, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:50 IST" name="T004_SurgeryList" finished-at="2024-03-06T12:55:50 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T004_SurgeryList -->
+        <test-method signature="T005_ScrollUp()[pri:9, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:50 IST" name="T005_ScrollUp" finished-at="2024-03-06T12:55:50 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T005_ScrollUp -->
+        <test-method signature="T001_goToCorporates()[pri:10, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:51 IST" name="T001_goToCorporates" finished-at="2024-03-06T12:55:56 IST" duration-ms="5788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T001_goToCorporates -->
+        <test-method signature="T002_validateCorporate()[pri:11, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:57 IST" name="T002_validateCorporate" finished-at="2024-03-06T12:55:57 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T002_validateCorporate -->
+        <test-method signature="T003_sendDetails()[pri:12, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:55:57 IST" name="T003_sendDetails" finished-at="2024-03-06T12:56:17 IST" duration-ms="20231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T003_sendDetails -->
+        <test-method signature="T004_VerifyMsg()[pri:13, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:56:17 IST" name="T004_VerifyMsg" finished-at="2024-03-06T12:56:21 IST" duration-ms="4117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T004_VerifyMsg -->
+        <test-method signature="T005_MsgScreenshot()[pri:14, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:56:22 IST" name="T005_MsgScreenshot" finished-at="2024-03-06T12:56:22 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T005_MsgScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_FindingHospital@2cb4893b]" started-at="2024-03-06T12:56:22 IST" name="tearDown" finished-at="2024-03-06T12:56:23 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_FindingHospital -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
